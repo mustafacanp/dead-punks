@@ -11,7 +11,7 @@ const canvasHeight = imageHeight * N;
 const canvas = createCanvas(canvasWidth, canvasHeight);
 const context = canvas.getContext("2d");
 
-loadImage("./punks.png").then((punks) => {
+loadImage("./images/punks.png").then((punks) => {
   // Draw the image to the context
   context.drawImage(punks, 0, 0, punks.width, punks.height);
   // Get image data from context to make computations faster with "Uint8ClampedArray" data type

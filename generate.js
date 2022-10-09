@@ -7,7 +7,7 @@ const N = 100;
 const imageWidth = 24;
 const imageHeight = 24;
 
-loadImage("./punks.png").then((punks) => {
+loadImage("./images/punks.png").then((punks) => {
   let i = 1;
   for (let X = 0; X < N; X++) {
     const startOfX = X * imageWidth;
